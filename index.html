@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8">
+        <title>Crystal Game</title>
+
+        <!-- reset css -->
+        <link rel="stylesheet" href="assets/css/reset.css">
+
+        <!-- jquery-3 -->
+        <script
+        src="http://code.jquery.com/jquery-3.2.1.min.js"
+        integrity="sha256-hwg4gsxgFZhOsEEamdOYGBf13FyQuiTwlAQgxVSNgt4="
+        crossorigin="anonymous"></script>
+
+        <!-- Latest compiled and minified CSS -->
+        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
+
+        <!-- Latest compiled and minified JavaScript -->
+        <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script>
+
+        <!-- custom css -->
+        <!-- <link rel="stylesheet" href="assets/css/style.css"> -->
+    </head>
+    <body>
+        <div class="container-fluid">
+            <div class="row">
+                <div class="col-sm-12">
+                    <div class="header">
+                        <h1 style="text-align: center">Crystals Collector</h1>
+                    </div>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-sm-12">
+                    <div class="jumbotron instructions">
+                        <ul>
+                            <li>You will be given a random number at the start of the game.</li>
+                            <li>There are 4 crystals below. By clicking on a crystal you will add a specific amount of points to your total score.</li>
+                            <li>You win the game by matching your total score with the random number.  You lose the game by going over the random number.</li>
+                            <li>The value of each crystal is hidden from you until you click on it.</li>
+                            <li>Each time the game starts it will change the values of each crystal.</li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-sm-3">
+                    <div class="your-random-number-is">
+                        The random number is:
+                    </div>
+                    <div class="random-number-display">
+                        <h1 class="random-number">placeholder</h1>
+                    </div>
+                </div>
+                <div class="col-sm-4">
+                    <div class="score-display">
+                        <div class="wins">
+                            <span> wins: </span>
+                            <span class="win-total">placeholder</span>
+                        </div>
+                        <div class="losses">
+                            <span>losses: </span>
+                            <span class="losses-total">placeholder</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-sm-8">
+                    <span><img src="" alt="crystal 1"></span>
+                    <span><img src="" alt="crystal 2"></span>
+                    <span><img src="" alt="crystal 3"></span>
+                    <span><img src="" alt="crystal 4"></span>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-sm-3">
+                    <div class="your-total-is">
+                        Your total is:
+                    </div>
+                    <div class="your-total-display">
+                        <h1 class="your-total">placeholder</h1>
+
+                    </div>
+                </div>
+            </div>
+        </div>
+        <script src="assets/javascript/game.js" charset="utf-8"></script>
+    </body>
+</html>
